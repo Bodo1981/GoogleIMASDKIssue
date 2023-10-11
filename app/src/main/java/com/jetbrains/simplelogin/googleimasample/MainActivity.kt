@@ -16,8 +16,8 @@ class MainActivity : AppCompatActivity() {
                 Intent(this, MainActivity::class.java),
                 ActivityOptions.makeCustomAnimation(
                     this,
-                    R.anim.kicker_slide_right_in,
-                    R.anim.kicker_slide_left_out
+                    R.anim.k_slide_right_in,
+                    R.anim.k_slide_left_out
                 ).toBundle()
             )
 
